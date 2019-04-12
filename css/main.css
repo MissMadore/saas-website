@@ -1,3 +1,78 @@
+html {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1D3E59;
+  text-align: center;
+}
+
+section p {
+  font-family: 'Montserrat', sans-serif;
+  color: #1D3E59;
+  text-align: center;
+}
+
 header {
   background-color: #1D3E59;
+}
+
+.banner-p {
+  color: #fff;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.orange-btn {
+  border: 3px solid #C96B34;
+  color: #fff;
+}
+
+.orange-blue-btn {
+  border: 3px solid #C96B34;
+  color: #1D3E59;
+}
+
+.desktop-banner {
+  display: none;
+}
+
+.content-duo h2,
+.content-duo p {
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .mobile-banner {
+    display: none;
+  }
+
+  .desktop-banner {
+    display: flex;
+  }
+
 }

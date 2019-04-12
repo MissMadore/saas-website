@@ -8,37 +8,87 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Righteous" rel="stylesheet">
+
 </head>
 <body>
-  <header class="grid">
-    <div class="unit s-1-3 m-1-3 island-1-2">
-      <img src="images/logo-small.png" alt="logo">
+  <header class="grid grid-middle push-0 island">
+    <div class="unit xs-1 s-1 m-1-3 island-1-2 push-1-2">
+      <img class="img-flex" src="images/logo-small.png" alt="logo">
     </div>
-    <div class="unit s-2-3 m-2-3">
+    <div class="unit xs-1 s-1 m-2-3 push-1-2">
       <nav>
-        <ul>
-          <a href="#">Home</a>
-          <a href="#">Tour</a>
-          <a href="#">Pricing</a>
-          <a href="#">Sign-Up</a>
+        <ul class="push-0 text-center">
+          <a class="island-1-4 push-0"href="#">Home</a>
+          <a class="island-1-4 push-0" href="#">Tour</a>
+          <a class="island-1-4 push-0" href="#">Pricing</a>
+          <a class="island-1-4 push-0" href="#">Sign-Up</a>
         </ul>
       </nav>
     </div>
   </header>
   <body>
-    <section class="relative push-0">
-      <img class="img-flex" src="images/homepage-banner@2x.png" alt="hero banner">
+    <section class="banner relative push-0">
+      <img class="img-flex mobile-banner" src="images/homepage-banner-mobile.png" alt="hero banner">
+      <img class="img-flex desktop-banner" src="images/homepage-banner-desktop.png" alt="hero banner">
       <div class="absolute pin-c text-center">
         <h1>RE-DISCOVER</h1>
-        <p>Subscribe for 20th Century Tunes Tailored to your tastes</p>
-        <a href="#">JOIN NOW</a>
+        <p class="banner-p">Subscribe for 20th Century Tunes Tailored to your tastes</p>
+        <a class="orange-btn island-1-4 gutter-1-2" href="#">JOIN NOW</a>
       </div>
-
     </section>
-
+    <section class="content-trio grid island">
+      <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
+        <img class="img-flex island-2" src="images/record.png" alt="album">
+        <h2>Feature Album</h2>
+        <p>Discover our weekly features, absolutely guaranteed to blow you away as soon as you hit play!</p>
+        <a class="orange-blue-btn island-1-4 gutter-1-2 href="#">LISTEN NOW</a>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
+        <img class="img-flex island-2"  src="images/article.png" alt="album">
+        <h2>Feature Album</h2>
+        <p>Browse through our selection of featured articles, assembled and authored by the RecordBox team</p>
+        <a class="orange-blue-btn island-1-4 gutter-1-2 href="#">READ UP</a>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
+        <img class="img-flex island-2"  src="images/microphone.png" alt="album">
+        <h2>Feature Album</h2>
+        <p>Who are we highlighting this April? Click below to find out which 20th Century Artist we want you to Re-Discover!</p>
+        <a class="orange-blue-btn island-1-4 gutter-1-2 href="#">WHO'S BACK</a>
+      </div>
+    </section>
+    <section class="content-duo grid">
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 relative">
+        <img class="img-flex" src="images/mobile-rust.png" alt="Red rust background">
+        <div class="absolute pin-c text-center">
+          <h2>Explore</h2>
+          <p>Give our expansive data base of 20th Century Tunes a gander. From big brass bands to disco delights, we’ve got it!</p>
+          <a class="orange-btn island-1-4 gutter-1-2 href="#">LISTEN NOW</a>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 relative">
+        <img class="img-flex" src="images/mobile-rust.png" alt="Red rust background">
+        <div class="absolute pin-c text-center">
+          <h2>Subscribe</h2>
+          <p>Find out how RecordBox’s subscription service can brighten your days with the best new tracks from the good old days!</p>
+          <a class="orange-btn island-1-4 gutter-1-2 href="#">LISTEN NOW</a>
+        </div>
+      </div>
+    </section>
   </body>
-  <footer>
-
+  <footer class="grid">
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
+      <img src="" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
+      <img src="" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
+      <img src="" alt="">
+    </div>
+    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4">
+      <img src="" alt="">
+    </div>
   </footer>
 </body>
 </html>
