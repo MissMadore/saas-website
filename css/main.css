@@ -1,22 +1,22 @@
 html {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   color: #fff;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1d3e59;
   text-align: center;
 }
 
 section p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1d3e59;
   text-align: center;
 }
 
 header {
-  background-color: #1D3E59;
+  background-color: #1d3e59;
 }
 
 .banner-p {
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
