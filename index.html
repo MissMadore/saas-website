@@ -12,8 +12,8 @@
 </head>
 <body>
   <ul class="skip-links">
-    <li><a href="#nav"></a></li>
-    <li><a href="#main"></a></li>
+    <li><a href="#nav" aria-label="skip to navigation"></a></li>
+    <li><a href="#main" aria-label="skip to main"></a></li>
   </ul>
 
   <header class="grid grid-middle push-0 island" role="banner">
@@ -24,75 +24,80 @@
       <nav id="nav" role="navigation">
         <ul class="push-0 text-center list-group-inline ">
           <li><a class="island-1-4 push-0" href="index.html" aria-label="">Home</a></li>
-          <li><a class="island-1-4 push-0" href="tour.html">Tour</a></li>
-          <li><a class="island-1-4 push-0" href="pricing.html">Pricing</a></li>
+          <li><a class="island-1-4 push-0" href="pricing.html">Tour</a></li>
+          <li><a class="island-1-4 push-0" href="tour.html">Pricing</a></li>
           <li><a class="island-1-4 push-0" href="sign-up.html">Sign-Up</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main id="main" role="main">
-    <section class="banner relative push-0">
+    <section class=" banner relative push-0">
       <img class="img-flex mobile-banner" src="images/homepage-banner-mobile.png" alt="hero banner">
       <img class="img-flex desktop-banner" src="images/homepage-banner-desktop.png" alt="hero banner">
       <div class="absolute pin-c text-center">
-        <h1>RE-DISCOVER</h1>
+        <h1 class="zetta">RE-DISCOVER</h1>
         <p class="banner-p">Subscribe for 20th Century Tunes Tailored to your tastes</p>
-        <a class="orange-btn island-1-4 gutter-1-2" href="#">JOIN NOW</a>
+        <a class="orange-btn btn island-1-4 gutter-1-2" href="#">JOIN NOW</a>
       </div>
     </section>
     <section class="content-trio grid island">
       <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
-        <img class="img-flex island-2" src="images/record.png" alt="album">
-        <h2>Feature Album</h2>
+        <div class="embed embed-1by1">
+          <img class="embed-item img-flex island-2" src="images/record.png" alt="album">
+        </div>
+        <h2 class="tera">Feature Album</h2>
         <p>Discover our weekly features, absolutely guaranteed to blow you away as soon as you hit play!</p>
         <a class="orange-blue-btn island-1-4 gutter-1-2" href="tour.html">LISTEN NOW</a>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
-        <img class="img-flex island-2" src="images/article.png" alt="album">
-        <h2>Feature Album</h2>
+        <div class="embed embed-1by1">
+          <img class="embed-item img-flex island-2" src="images/article.png" alt="album">
+        </div>
+        <h2 class="tera">Feature Album</h2>
         <p>Browse through our selection of featured articles, assembled and authored by the RecordBox team</p>
         <a class="orange-blue-btn island-1-4 gutter-1-2" href="tour.html">READ UP</a>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 island text-center">
-        <img class="img-flex island-2" src="images/microphone.png" alt="album">
-        <h2>Feature Album</h2>
+        <div class="embed embed-1by1">
+          <img class="embed-item img-flex island-2" src="images/microphone.png" alt="album">
+        </div>
+        <h2 class="tera">Feature Album</h2>
         <p>Who are we highlighting this April? Click below to find out which 20th Century Artist we want you to Re-Discover!</p>
         <a class="orange-blue-btn island-1-4 gutter-1-2" href="tour.html">WHO'S BACK</a>
       </div>
     </section>
     <section class="content-duo grid">
       <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 relative">
-        <img class="img-flex" src="images/mobile-rust.png" alt="Red rust background">
+        <img class="img-flex" src="images/mobile-rust-blue.png" alt="Red rust background">
         <div class="absolute pin-c text-center">
-          <h2>Explore</h2>
+          <h2 class="tera">Explore</h2>
           <p>Give our expansive data base of 20th Century Tunes a gander. From big brass bands to disco delights, we’ve got it!</p>
           <a class="orange-btn btn island-1-4 gutter-1-2" href="tour.html">LISTEN NOW</a>
         </div>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 relative">
-        <img class="img-flex" src="images/mobile-rust.png" alt="Red rust background">
+        <img class="img-flex" src="images/mobile-rust-red.png" alt="Red rust background">
         <div class="absolute pin-c text-center">
-          <h2>Subscribe</h2>
+          <h2 class="tera">Subscribe</h2>
           <p>Find out how RecordBox’s subscription service can brighten your days with the best new tracks from the good old days!</p>
-          <a class="orange-btn island-1-4 gutter-1-2" href="pricing.html">LISTEN NOW</a>
+          <a class="orange-btn btn island-1-4 gutter-1-2" href="pricing.html">LISTEN NOW</a>
         </div>
       </div>
     </section>
   </main>
   <footer class="grid island" role="contentinfo">
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex gutter-2">
-      <img src="images/top-btn" alt="back to top">
+    <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
+      <i class="icon i-24 island push-1-2"><img src="images/top-btn.png" alt="back to top"></i>
     </div>
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex gutter-2">
-      /*icons*/
-      <img src="images/facebook.svg" alt="facebook logo">
+    <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
+      <i class="icon i-24 island push-1-2"><img src="images/facebook.svg" alt="facebook logo"></i>
     </div>
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex gutter-2">
-      <img src="images/twitter.svg" alt="twitter logo">
+    <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
+      <i class="icon i-24 island push-1-2"><img src="images/twitter.svg" alt="twitter logo"></i>
     </div>
-    <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex gutter-2">
-      <img src="images/instagram.svg" alt="instagram logo">
+    <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
+      <i class="icon i-24 island push-1-2"><img src="images/instagram.svg" alt="instagram logo"></i>
     </div>
   </footer>
 </body>

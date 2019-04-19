@@ -1,16 +1,16 @@
 html {
-  font-family: "Righteous", cursive;
+  font-family: Righteous, cursive;
   color: #fff;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #1d3e59;
   text-align: center;
 }
 
 section p {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #1d3e59;
   text-align: center;
 }
@@ -29,13 +29,31 @@ nav ul {
 }
 
 nav a {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #fff;
+}
+
+nav a:hover {
+  background-color: #c96b34;
+  border: 3px solid #c96b34;
+}
+
+nav a:focus {
+  background-color: #c96b34;
+  border: 3px solid #c96b34;
 }
 
 .orange-btn {
   border: 3px solid #c96b34;
   color: #fff;
+}
+
+.orange-blue-btn:hover {
+  background-color: #c96b34;
+}
+
+.orange-blue-btn:focus {
+  background-color: #c96b34;
 }
 
 .orange-blue-btn {
@@ -56,17 +74,11 @@ footer {
   background-color: #1d3e59
 }
 
-
 @media only screen and (min-width: 25em) {
-
-
 
 }
 
 @media only screen and (min-width: 38em) {
-
-
-
 
 }
 
