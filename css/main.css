@@ -36,11 +36,18 @@ nav a {
 nav a:hover {
   background-color: #c96b34;
   border: 3px solid #c96b34;
+  border-radius: 8px;
 }
 
 nav a:focus {
   background-color: #c96b34;
   border: 3px solid #c96b34;
+  border-radius: 8px;
+}
+
+.current {
+  border: 3px solid #c96b34;
+  border-radius: 8px;
 }
 
 .orange-btn {
@@ -70,16 +77,16 @@ nav a:focus {
   color: #fff;
 }
 
+.txt-white {
+  color: #fff;
+}
+
 footer {
-  background-color: #1d3e59
+  background-color: #1d3e59;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
-@media only screen and (min-width: 38em) {
-
+i:hover {
+  border: 3px solid #c96b34;
 }
 
 @media only screen and (min-width: 60em) {

@@ -17,7 +17,7 @@
     <li><a href="#main" aria-label="skip to main"></a></li>
   </ul>
 
-  <header role="banner" class="grid grid-middle push-0 island">
+  <header role="banner" class="grid grid-middle push-0 island" id="top">
     <div class="unit xs-1 s-1 m-1-3 island-1-2 push-1-2">
       <img class="img-flex" src="images/logo-small.png" alt="RecordBox logo">
     </div>
@@ -26,27 +26,91 @@
         <ul class="push-0 text-center list-group-inline ">
           <li><a class="island-1-4 push-0" href="index.html" aria-label="">Home</a></li>
           <li><a class="island-1-4 push-0" href="pricing.html">Tour</a></li>
-          <li><a class="island-1-4 push-0" href="tour.html">Pricing</a></li>
+          <li><a class="current island-1-4 push-0" href="tour.html">Pricing</a></li>
           <li><a class="island-1-4 push-0" href="sign-up.html">Sign-Up</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main id="main" role="main">
-
+    <section class="push-0">
+      <div class="embed embed-3by2 push-0 relative">
+        <img class="embed-item push-0 img-flex" src="images/red-rust.png" alt="banner background">
+        <div class="absolute pin-c">
+          <h1 class="txt-white exa">PRICING</h1>
+        </div>
+      </div>
+    </section>
+    <section class="island">
+      <table class="valign-middle">
+        <caption class="push-0 bold not-italic">
+          <h2 class="push pad-t gutter-1-4 tera">Our Plans</h2>
+        </caption>
+        <thead class="island">
+          <tr>
+            <th scope="col">
+              <p class="push-0 gutter-1-4 text-left">FREE TRIAL</p>
+            </th>
+            <th scope="col">
+              <p class="push-0 gutter-1-4 text-left">MEMBER</p>
+            </th>
+            <th scope="col">
+              <p class="push-0 gutter-1-4 text-left">SUBSCRIBE</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p class="milli push-1-2 pad-t-1-2 gutter-1-4 valign-middle text-left">We at RecordBox want you to see first hand just how fantastic our subscription service could be for your every day listening life. Enjoy full access to our enormous music database</p>
+            </td>
+            <td>
+              <p class="milli push-1-2 pad-t-1-2 gutter-1-4 valign-middle text-left">Become a member and get access to our full database of music, articles, and participation in our amazing community forums</p>
+            </td>
+            <td>
+              <p class="milli push-1-2 pad-t-1-2 gutter-1-4 valign-middle text-left">RecordBox’s 1 year Subscription Service offers the chance to get custom curated content straight from the brilliant minds of our team of music experts. Help lift the 20th Century’s best music into the modern era — and your inbox.</p>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <p class="push-0 gutter-1-4 text-left">0$</p>
+            </td>
+            <td>
+              <p class="push-0 gutter-1-4 text-left">5$</p>
+            </td>
+            <td>
+              <p class="push-0 gutter-1-4 text-left">15$</p>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <div class="push-2 text-center">
+      <a class="orange-blue-btn btn island-1-4 gutter-1-2" href="sign-up.html">SIGN UP</a>
+    </div>
   </main>
   <footer class="grid island" role="contentinfo">
     <div class="unit xs-1 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
-      <i class="icon i-24 island push-1-2"><img src="images/top-btn.png" alt="back to top"></i>
+      <a href="#top">
+        <i class="icon i-24 island push"><img src="images/top-btn.png" alt="back to top"></i>
+      </a>
     </div>
     <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
-      <i class="icon i-24 island push-1-2"><img src="images/facebook.svg" alt="facebook logo"></i>
+      <a href="https://youtu.be/2Z4m4lnjxkY">
+        <i class="icon i-24 island push-1-2"><img src="images/facebook.svg" alt="facebook logo"></i>
+      </a>
     </div>
     <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
-      <i class="icon i-24 island push-1-2"><img src="images/twitter.svg" alt="twitter logo"></i>
+      <a href="https://youtu.be/2Z4m4lnjxkY">
+        <i class="icon i-24 island push-1-2"><img src="images/twitter.svg" alt="twitter logo"></i>
+      </a>
     </div>
     <div class="unit xs-1-3 s-1-4 m-1-4 l-1-4 xl-1-4 img-flex text-center">
-      <i class="icon i-24 island push-1-2"><img src="images/instagram.svg" alt="instagram logo"></i>
+      <a href="https://youtu.be/2Z4m4lnjxkY">
+        <i class="icon i-24 island push-1-2"><img src="images/instagram.svg" alt="instagram logo"></i>
+      </a>
     </div>
   </footer>
 </body>
