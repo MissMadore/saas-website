@@ -99,6 +99,10 @@ input {
   border: 3px solid #c96b34;
 }
 
+.table-width {
+  width: 12em;
+}
+
 @media only screen and (min-width: 60em) {
 
   .mobile-banner {
